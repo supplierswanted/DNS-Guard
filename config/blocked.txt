@@ -1,0 +1,2 @@
+# Example test domain. Add domains from a source you trust, one per line.
+blocked.example

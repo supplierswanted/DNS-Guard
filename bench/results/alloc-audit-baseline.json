@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "forward",
+    "repeat": 0,
+    "requests": 1000,
+    "allocations": 8002,
+    "requested_bytes": 190248,
+    "buffers_65536": 0
+  },
+  {
+    "scenario": "forward",
+    "repeat": 1,
+    "requests": 1000,
+    "allocations": 8002,
+    "requested_bytes": 190248,
+    "buffers_65536": 0
+  },
+  {
+    "scenario": "forward",
+    "repeat": 2,
+    "requests": 1000,
+    "allocations": 8002,
+    "requested_bytes": 190248,
+    "buffers_65536": 0
+  },
+  {
+    "scenario": "blocked",
+    "repeat": 0,
+    "requests": 1000,
+    "allocations": 5002,
+    "requested_bytes": 116248,
+    "buffers_65536": 0
+  },
+  {
+    "scenario": "blocked",
+    "repeat": 1,
+    "requests": 1000,
+    "allocations": 5002,
+    "requested_bytes": 116248,
+    "buffers_65536": 0
+  },
+  {
+    "scenario": "blocked",
+    "repeat": 2,
+    "requests": 1000,
+    "allocations": 5002,
+    "requested_bytes": 116248,
+    "buffers_65536": 0
+  }
+]

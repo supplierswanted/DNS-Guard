@@ -1,0 +1,1 @@
+# Updated by scripts/Update-DNSBlocklist.ps1 after source verification.

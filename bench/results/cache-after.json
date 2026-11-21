@@ -1,0 +1,378 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "executable_sha256": "48785d1f246b4817ee0f9f09a563dabdee3a4131c0b81f406231e937d5b6d2f2"
+  },
+  "method": "Loopback fake peer only; no provider traffic. Python client, scheduling and fake-peer overhead included. TCP reconnects every 8 queries. Queue scenarios send one burst before multiplexed receive; memory is the proxy process only, sampled every 5ms (brief peaks can be missed). Latency percentiles include only successful expected-RCODE replies; failures are counted separately. Queue scenarios use two proxy workers and a peer with concurrent 20ms delayed replies.",
+  "rounds": [
+    {
+      "scenario": "udp_cache_hit",
+      "requests": 2000,
+      "successful": 2000,
+      "failed": 0,
+      "errors": {},
+      "elapsed_seconds": 0.25127249999786727,
+      "successful_per_second": 7959.4862152323685,
+      "latency_ms": {
+        "p50": 0.07690000347793102,
+        "p95": 0.14792000511079093,
+        "p99": 0.21280300497892313
+      },
+      "rss_before_bytes": 6397952,
+      "rss_after_bytes": 6402048,
+      "rss_peak_bytes": 6402048,
+      "private_peak_bytes": 1495040,
+      "memory_samples": [
+        {
+          "monotonic_seconds": 114446.637953,
+          "rss_bytes": 6397952,
+          "private_bytes": 1490944
+        },
+        {
+          "monotonic_seconds": 114446.6495624,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.6671173,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.6836644,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.7009883,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.7176392,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.7336263,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.7500114,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.7670101,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.782838,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8004055,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8169152,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8327164,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8504875,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.866976,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8836124,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114446.8951814,
+          "rss_bytes": 6402048,
+          "private_bytes": 1495040
+        }
+      ],
+      "config": {
+        "workers": 4,
+        "queue_capacity": 64,
+        "timeout_ms": 500,
+        "list_entries": 1,
+        "burst": 1,
+        "upstream_reply_delay_ms": 0,
+        "request_payload_bytes": 31
+      },
+      "round": 1
+    },
+    {
+      "scenario": "udp_cache_hit",
+      "requests": 2000,
+      "successful": 2000,
+      "failed": 0,
+      "errors": {},
+      "elapsed_seconds": 0.25918880000244826,
+      "successful_per_second": 7716.382806591598,
+      "latency_ms": {
+        "p50": 0.07750000804662704,
+        "p95": 0.1584999990882352,
+        "p99": 0.27382598957046866
+      },
+      "rss_before_bytes": 6414336,
+      "rss_after_bytes": 6414336,
+      "rss_peak_bytes": 6414336,
+      "private_peak_bytes": 1495040,
+      "memory_samples": [
+        {
+          "monotonic_seconds": 114447.1216943,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.1350585,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.1501582,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.1669613,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.1829977,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.1926569,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.200674,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.2167213,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.2337829,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.2490149,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.2672649,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.2827906,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.3001679,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.3170438,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.333833,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.3497256,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.3669529,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        },
+        {
+          "monotonic_seconds": 114447.3820272,
+          "rss_bytes": 6414336,
+          "private_bytes": 1495040
+        }
+      ],
+      "config": {
+        "workers": 4,
+        "queue_capacity": 64,
+        "timeout_ms": 500,
+        "list_entries": 1,
+        "burst": 1,
+        "upstream_reply_delay_ms": 0,
+        "request_payload_bytes": 31
+      },
+      "round": 2
+    },
+    {
+      "scenario": "udp_cache_hit",
+      "requests": 2000,
+      "successful": 2000,
+      "failed": 0,
+      "errors": {},
+      "elapsed_seconds": 0.2755353000102332,
+      "successful_per_second": 7258.598081355533,
+      "latency_ms": {
+        "p50": 0.08399999933317304,
+        "p95": 0.17792000071494837,
+        "p99": 0.2831540019542444
+      },
+      "rss_before_bytes": 6340608,
+      "rss_after_bytes": 6340608,
+      "rss_peak_bytes": 6340608,
+      "private_peak_bytes": 1474560,
+      "memory_samples": [
+        {
+          "monotonic_seconds": 114447.5892183,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6021661,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6176122,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6328939,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6505001,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6667424,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.6840416,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7003569,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7169418,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7332742,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7502993,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7669663,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.7827715,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.8003749,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.8167232,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.8326862,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.8502606,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        },
+        {
+          "monotonic_seconds": 114447.8658004,
+          "rss_bytes": 6340608,
+          "private_bytes": 1474560
+        }
+      ],
+      "config": {
+        "workers": 4,
+        "queue_capacity": 64,
+        "timeout_ms": 500,
+        "list_entries": 1,
+        "burst": 1,
+        "upstream_reply_delay_ms": 0,
+        "request_payload_bytes": 31
+      },
+      "round": 3
+    }
+  ],
+  "summaries": {
+    "udp_cache_hit": {
+      "median_successful_per_second": 7716.382806591598,
+      "total_successful": 6000,
+      "total_failed": 0,
+      "median_p50_ms": 0.07750000804662704,
+      "median_p95_ms": 0.1584999990882352,
+      "median_p99_ms": 0.27382598957046866,
+      "max_rss_peak_bytes": 6414336
+    }
+  }
+}
