@@ -1,6 +1,6 @@
-# Rogerfab DNS Guard
+# DNS Guard
 
-Rogerfab DNS Guard is a Windows DNS forwarding and monitoring service. It checks queried domains against local allow/block lists and an optional threat feed. Blocked names receive `REFUSED`; allowed queries are forwarded to the configured upstream resolver.
+ DNS Guard is a Windows DNS forwarding and monitoring service. It checks queried domains against local allow/block lists and an optional threat feed. Blocked names receive `REFUSED`; allowed queries are forwarded to the configured upstream resolver.
 
 The service is intended as an additional local DNS filtering layer. It does not inspect arbitrary application traffic, decrypt DoH/DoT/DoQ, block direct-IP connections, or guarantee detection of every malicious domain.
 
